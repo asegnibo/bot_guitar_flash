@@ -1,7 +1,7 @@
 <h1 align="center">🎸 Guitar Flash Bot 🎸</h1>
 
 <p align="center">
-  <img src="images/gif_bot_gf3.gif" width="300" alt="Demonstração do Bot em ação">
+  <img src="images/gif_bot_gf3.gif" width="450" alt="Demonstração do Bot em ação">
 </p>
 
 ## 🔧 Visão Geral
