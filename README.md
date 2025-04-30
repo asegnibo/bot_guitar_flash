@@ -4,9 +4,9 @@
   <img src="images/gif_bot_gf3.gif" width="300" alt="Demonstração do Bot em ação">
 </p>
 
-O **bot_guitar_flash** é um bot automatizado, feito em python, para o jogo [Guitar Flash 3](https://guitarflash3.com/) , que detecta as notas na tela e simula o pressionamentos das teclas correspondentes a cada nota no jogo. 
-
 ## 🔧 Visão Geral
+
+O **bot_guitar_flash** é um bot automatizado, feito em python, para o jogo [Guitar Flash 3](https://guitarflash3.com/) , que detecta as notas da tela e simula o pressionamentos das teclas correspondentes a cada nota no jogo. 
 
 📗 **O bot utiliza as bibliotecas**:
 
@@ -52,23 +52,15 @@ flowchart TD
     A[Início] --> B["Configura variáveis e teclas"]
     B --> C["Inicia captura da tela com mss"]
     C --> D["Loop principal"]
-
     D --> E["Captura imagem da área do jogo"]
     E --> F["Converte imagem para HSV"]
-
     F --> G{"Para cada tecla"}
     G --> H["Verifica cor do pixel (HSV)"]
     H --> I{"Cor está no intervalo?"}
-
     I -- Sim --> J["Pressiona a tecla se ainda não pressionada"]
     I -- Não --> K["Libera a tecla se estava pressionada"]
-
-    J --> L["Desenha indicador verde"]
-    K --> M["Desenha indicador vermelho"]
-    L --> N["Exibe imagem com info e FPS"]
-    M --> N
-
-    N --> O{"Tecla 'q' pressionada?"}
+    J --> O{"Tecla 'q' pressionada?"}
+    K --> O{"Tecla 'q' pressionada?"}
     O -- Não --> D
     O -- Sim --> P["Fim do programa"]
 
