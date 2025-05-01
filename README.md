@@ -5,7 +5,7 @@
 </p>
 
 ## Índice
-[🔧 Visão Geral](https://github.com/asegnibo/bot_guitar_flash?tab=readme-ov-file#-vis%C3%A3o-geral)
+[🔧 Visão Geral](https://github.com/asegnibo/bot_guitar_flash?#-vis%C3%A3o-geral)
 
 [👷🏽‍♂️ Arquitetura](https://github.com/asegnibo/bot_guitar_flash/edit/main/README.md#%EF%B8%8Farquitetura)
 
