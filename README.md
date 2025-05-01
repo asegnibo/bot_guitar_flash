@@ -4,14 +4,6 @@
   <img src="images/gif_bot_gf3.gif" width="450" alt="Demonstração do Bot em ação">
 </p>
 
-## Índice
-[🔧 Visão Geral](https://github.com/asegnibo/bot_guitar_flash#-vis%C3%A3o-geral)
-
-[👷🏽‍♂️ Arquitetura](https://github.com/asegnibo/bot_guitar_flash/edit/main/README.md#%EF%B8%8Farquitetura)
-
-[🚀 Como Usar](https://github.com/asegnibo/bot_guitar_flash/edit/main/README.md#como-usar)
-
-
 ## 🔧 Visão Geral
 
 O **bot_guitar_flash** é um bot automatizado, feito em python, para o jogo [Guitar Flash 3](https://guitarflash3.com/) , que detecta as notas da tela e simula o pressionamentos das teclas correspondentes a cada nota no jogo. 
