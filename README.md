@@ -8,7 +8,7 @@
 
 O **bot_guitar_flash** é um bot automatizado, feito em python, para o jogo [Guitar Flash 3](https://guitarflash3.com/) , que detecta as notas da tela e simula o pressionamentos das teclas correspondentes a cada nota no jogo. 
 
-📗 **O bot utiliza as bibliotecas**:
+📗 **O bot utiliza as bibliotecas** :
 
 - `mss` para captura de tela em tempo real.
 - `OpenCV` para conversão e análise de imagem no espaço de cores HSV.
