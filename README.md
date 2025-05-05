@@ -54,7 +54,7 @@ flowchart TD
     C --> D["Loop principal"]
     D --> E["Captura imagem da área do jogo"]
     E --> F["Converte imagem para HSV"]
-    F --> G{"Para cada tecla"}
+    F --> G["Para cada tecla"]
     G --> H["Verifica cor do pixel (HSV)"]
     H --> I{"Cor está no intervalo?"}
     I -- Sim --> J["Pressiona a tecla se ainda não pressionada"]
